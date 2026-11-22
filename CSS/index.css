@@ -2,8 +2,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-
-
 }
 
 body {
@@ -13,17 +11,32 @@ body {
 }
 
 #cabeçalho{
-    padding: 20px;
-    font-size: 20px;
+    padding: 10px;
     background-color: rgb(90, 5, 39);
     color: rgb(255, 240, 79)
 }
 
 #logo{
-    width: 150px ;
-    height:  130px;
+    width: 120px ;
+    height:  120px;
     border-radius: 150px ;
 }
+#titulo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    position: absolute;
+    top: 35px;
+    left: 140px;
+}
+
+
+#subti{
+    font-size: 30px;
+    position: absolute;
+    top: 90px;
+    left: 390px
+}
+
 
 
 #mapa {
@@ -35,4 +48,55 @@ body {
     border: 5px solid rgb(24, 76, 0);
     border-radius: 40px;
     opacity: 0.9;
+}
+
+#navinicio{
+    font-size: 25px;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    right: 40px;
+    top: 110px;
+}
+
+.menu{
+    
+    color: rgb(255, 240, 182);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.menu:hover {
+    color: #c9a66b;
+    background-color: transparent;
+}
+
+#titulo2{
+
+    padding: 40px;
+    background-color: rgb(24, 63, 5);
+    color: rgb(255, 248, 155);
+    font-size: 30px;
+    margin-top: 50px ;
+    text-align: center;
+    transition: 0.2s ease;
+    
+}
+
+#titulo2:hover{
+    color: #c9a66b;
+
+}
+
+#subti2{
+    padding: 15px;
+    background-color: rgb(24, 63, 5);
+    color: rgb(255, 248, 155);
+    font-size: 20px;
+    text-align: center;
+    transition: 0.2s ease;
+}
+#subti2:hover{
+    color: #c9a66b;
+
 }
